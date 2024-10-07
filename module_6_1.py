@@ -9,7 +9,7 @@ class Animal:
     def eat(self , food):
 
         if self.fed == True:
-            return "I'm not hungry)))"
+            print( "I'm not hungry)))")
         else:
             if food.edible == True:
                 self.fed = True
@@ -49,3 +49,4 @@ a1.eat(p1)
 a2.eat(p2)
 print(a1.alive)
 print(a2.fed)
+a2.eat(p2)
